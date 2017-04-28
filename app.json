@@ -1,0 +1,50 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @SouraVNandA
+ Sign out
+ Watch 16
+  Star 79
+  Fork 153 api-ai/api-ai-facebook
+forked from xVir/api-ai-facebook
+ Code  Issues 1  Pull requests 3  Projects 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathapi-ai-facebook/app.json
+41c3602  on Feb 13
+@xVir xVir Update node version
+1 contributor
+RawBlameHistory     
+30 lines (29 sloc)  820 Bytes
+{
+  "name": "API.AI Facebook integration",
+  "description": "Api.ai Facebook integration allows you to create Facebook bots with natural language understanding based on Api.ai technology.",
+  "repository": "https://github.com/api-ai/api-ai-facebook",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["api.ai", "facebook", "natural language"],
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": ""
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Verification code",
+      "value": ""
+    },
+    "FB_PAGE_ACCESS_TOKEN": {
+      "description": "Page Access Token",
+      "value": ""
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "",
+      "required": false
+    }
+  },
+  "engines": {
+    "node": "6.9.5"
+  }
+}
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
