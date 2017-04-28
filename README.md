@@ -7,7 +7,7 @@ Facebook bot sources for Api.ai integration
   [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
   
   ## Deploy with Docker
-@@ -12,24 +14,24 @@
+
            docker run -it --name fb_bot \
            -p <your_desired_port>:5000 \
            -e APIAI_ACCESS_TOKEN="API.AI client access token" \
